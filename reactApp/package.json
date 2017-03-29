@@ -1,0 +1,17 @@
+{
+  "name": "reactappcalc",
+  "version": "1.0.0",
+  "description": "a calculator made in react",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "Hreiðar Ólafur Arnarsson",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
