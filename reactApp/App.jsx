@@ -20,9 +20,17 @@ class App extends React.Component {
 
     calculate(event) {
         //var calcTotal = add(this.state.number1, this.state.number2);
-        this.setState((prevState) => ({
-            total: this.state.number1 + this.state.number2
-        }));
+        let number1 = parseInt(this.state.number1);
+        let number2 = parseInt(this.state.number2);
+        let calcTotal = number1 + number2;
+        console.log(typeof number1);
+        console.log(number2);
+
+        this.setState({total: calcTotal});
+
+        /*this.setState((prevState) => ({
+            total: calcTotal
+        }));*/
     }
 
     updateFirstNumber(event) {
